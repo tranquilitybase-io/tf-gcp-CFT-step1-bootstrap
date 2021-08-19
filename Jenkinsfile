@@ -14,7 +14,7 @@ pipeline {
         
         stage ('Test received params') {
             steps {
-                sh 'echo "\$bootstrap_params"\'
+                sh 'echo "bootstrap_params"'
             }
         }
         stage('Activate GCP Service Account and Set Project') {
