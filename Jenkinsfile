@@ -34,7 +34,7 @@ pipeline {
                  container('gcloud') {
                       sh '''
                        
-                      sh 'apt-get -y install jq wget unzip'
+                         apt-get -y install jq wget unzip
                          wget -O /tmp/terraform.zip https://releases.hashicorp.com/terraform/0.13.7/terraform_0.13.7_linux_amd64.zip
                          unzip -q /tmp/terraform.zip -d /tmp
                          chmod +x /tmp/terraform
