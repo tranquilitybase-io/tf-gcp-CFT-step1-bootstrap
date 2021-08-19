@@ -2,6 +2,8 @@ pipeline {
     agent {
         kubernetes {
           label 'any' 
+          defaultContainer 'gcloud'  
+
         }
     }
     environment {
