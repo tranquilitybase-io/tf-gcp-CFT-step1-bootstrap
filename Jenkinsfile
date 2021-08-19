@@ -1,7 +1,7 @@
 pipeline {
     agent {
         kubernetes {
-          label 'banana' 
+          label 'any' 
           defaultContainer 'gcloud'  
         }
     }
