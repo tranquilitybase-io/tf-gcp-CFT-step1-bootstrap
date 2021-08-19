@@ -37,7 +37,7 @@ pipeline {
                      sh '''
                        
                          apt-get -y install jq wget unzip
-                         wget -O /tmp/terraform.zip https://releases.hashicorp.com/terraform/0.14.6/terraform_0.14.6_linux_amd64.zip
+                         wget -O /tmp/terraform.zip https://releases.hashicorp.com/terraform/0.13.7/terraform_0.13.7_linux_amd64.zip
                          unzip -q /tmp/terraform.zip -d /tmp
                          chmod +x /tmp/terraform
                          mv /tmp/terraform /usr/local/bin
