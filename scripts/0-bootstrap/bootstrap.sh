@@ -20,11 +20,11 @@ PAST_TF_VARS_FILE=./terraform.tfvars
 
 echo Copying in variable file for Jenkins deployment
 TF_VARS_FILE=../../../scripts/0-bootstrap/terraform.auto.tfvars.json
-[ -f $TF_VARS_FILE ] && { echo "Copying terraform.tfvars"; cp $TF_VARS_FILE .; } || { echo "can't find $TF_VARS_FILE"; exit 1; }
+[ -f $TF_VARS_FILE ] && { echo "Copying terraform.tfvars"; cp $TF_VARS_FILE .; } || { echo "can't find $TF_VARS_FILE"; }
 
 echo Copying in variable file for bash deployment
 TF_VARS_FILE=../../../scripts/0-bootstrap/terraform.tfvars
-[ -f $TF_VARS_FILE ] && { echo "Copying terraform.tfvars"; cp $TF_VARS_FILE .; } || { echo "can't find $TF_VARS_FILE"; exit 1; }
+[ -f $TF_VARS_FILE ] && { echo "Copying terraform.tfvars"; cp $TF_VARS_FILE .; } || { echo "can't find $TF_VARS_FILE"; }
 
 echo Running terraform init/plan/apply
 terraform init
