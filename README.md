@@ -8,7 +8,6 @@
 
      * [Prerequisites](#prerequisites)
      * [The Deployment Process (Overview)](#the-deployment-process-overview)
-     * [Roles and Required Access](#roles-and-access)
      * [0-bootstrap](#0-bootstrap)
 
         
