@@ -42,17 +42,6 @@
 
 <img width="1018" alt="Screenshot 2021-07-27 at 11 43 57 am" src="https://user-images.githubusercontent.com/80045831/127141366-262007ca-c4a6-48c5-a0bc-b89bdeb694a8.png">
 
-## Roles and Required Access
-
-### User account :
--
--
--
-### Service account : 
--
--
-
-
 
 ## 0-bootstrap
 This repo is part of a multi-part guide that shows how to configure and deploy the example.com reference architecture described in Google Cloud security foundations guide (PDF). 
