@@ -10,11 +10,8 @@
      * [The Deployment Process (Overview)](#the-deployment-process-overview)
      * [Roles and Required Access](#roles-and-access)
      * [0-bootstrap](#0-bootstrap)
-     * [1-org](#1-org)
-     * [2-environment](#2-environment)
-     * [3-network](#3-network)
- 
-         
+
+        
  
 
 ## Prerequisites
