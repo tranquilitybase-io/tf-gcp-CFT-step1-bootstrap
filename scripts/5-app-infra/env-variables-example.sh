@@ -1,1 +1,0 @@
-export YOUR_INFRA_PIPELINE_PROJECT_ID=<project_id>
