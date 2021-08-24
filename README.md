@@ -45,7 +45,7 @@ This repo is part of a multi-part guide that shows how to configure and deploy t
 ### Instructions: 
 1. Git clone repo.
    ```
-   git clone https://github.com/tranquilitybase-io/tf-gcp-CFT-architecture.git
+   git clone https://github.com/tranquilitybase-io/tf-gcp-CFT-step1-bootstrap.git
    ```
 
 1. Checkout relevant branch.
@@ -54,16 +54,16 @@ This repo is part of a multi-part guide that shows how to configure and deploy t
    ```
 1. Change into bootstrap script folder.
    ```
-   cd ./tf-gcp-CFT-architecture/scripts/0-bootstrap
+   cd ./tf-gcp-CFT-step1-bootstrap/scripts/0-bootstrap
    ```
 1. Rename `terraform.example.tfvars` to `terraform.tfvars`  
    and update the file with values from your environment.
    ```
    mv terraform.example.tfvars terraform.tfvars
    ```
-1. Change back into root `./tf-gcp-CFT-architecture` directory. 
+1. Change back into root `./tf-gcp-CFT-step1-bootstrap` directory. 
    ```
-   cd ..
+   cd ../..
    ```
 1. Execute bootstrap script.
    ```
